@@ -1,0 +1,89 @@
+.icon-call {
+  background-image: url(../../img/sprite.png);
+  background-position: -96px -65px;
+  width: 53px;
+  height: 53px; }
+
+.icon-check-green {
+  background-image: url(../../img/sprite.png);
+  background-position: -161px -103px;
+  width: 16px;
+  height: 16px; }
+
+.icon-check-violet {
+  background-image: url(../../img/sprite.png);
+  background-position: -177px -103px;
+  width: 16px;
+  height: 16px; }
+
+.icon-cross {
+  background-image: url(../../img/sprite.png);
+  background-position: -234px -144px;
+  width: 20px;
+  height: 20px; }
+
+.icon-gift {
+  background-image: url(../../img/sprite.png);
+  background-position: -49px -140px;
+  width: 47px;
+  height: 53px; }
+
+.icon-gifts {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 96px;
+  height: 68px; }
+
+.icon-installation {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -68px;
+  width: 75px;
+  height: 72px; }
+
+.icon-li {
+  background-image: url(../../img/sprite.png);
+  background-position: -193px -103px;
+  width: 16px;
+  height: 16px; }
+
+.icon-manager {
+  background-image: url(../../img/sprite.png);
+  background-position: -96px 0px;
+  width: 65px;
+  height: 65px; }
+
+.icon-metering {
+  background-image: url(../../img/sprite.png);
+  background-position: -161px -46px;
+  width: 58px;
+  height: 57px; }
+
+.icon-phone-hand {
+  background-image: url(../../img/sprite.png);
+  background-position: -234px -164px;
+  width: 18px;
+  height: 19px; }
+
+.icon-thermometer-green {
+  background-image: url(../../img/sprite.png);
+  background-position: -234px 0px;
+  width: 22px;
+  height: 72px; }
+
+.icon-thermometer-violet {
+  background-image: url(../../img/sprite.png);
+  background-position: -234px -72px;
+  width: 22px;
+  height: 72px; }
+
+.icon-waggon {
+  background-image: url(../../img/sprite.png);
+  background-position: -161px 0px;
+  width: 73px;
+  height: 46px; }
+
+.icon-window {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -140px;
+  width: 49px;
+  height: 54px; }

@@ -1,13 +1,449 @@
-@media screen and (max-width: 1199px)
-	.container
-		width: 950px
-
-
-@media screen and (max-width: 970px)
-	.container
+@media screen and (max-width: 1095px)
+	img
+		max-width: 100%
+	.case
 		width: 750px
 
+	.header
+		text-align: center
+		&__logo, &__consult, &__phones
+			float: none
+	
+		&__logo
+			margin-bottom: 20px
 
+		&__consult
+			// margin-top: 15px
+			// margin-bottom: 15px
+			margin-right: 20px
+
+		&__consult, &__phones
+			display: inline-block
+			vertical-align: top
+			width: 225px
+
+	.logo
+		margin-right: 0
+		img
+			margin-left: auto
+			margin-right: auto
+		p
+			text-align: center
+
+	.nav
+		padding-top: 10px
+		padding-bottom: 10px
+		li
+			// display: block
+			vertical-align: middle
+			margin-right: 0
+			margin-left: 0
+			width: 25%
+		a
+			padding-left: 20px
+			padding-right: 20px
+
+	.title
+		font-size: 32px
+		line-height: normal
+
+	.glazing, .feedback, .share, .decoration, .work, .dops, .advantages, .windows, .addiction, .dops-steps, .decoration-block, .materials, .wood
+		padding-top: 25px
+		padding-bottom: 25px
+		&__title
+			margin-bottom: 20px
+
+	.glazing
+		&__item
+			padding-left: 10px
+			padding-right: 10px
+		&__img
+			margin-left: 0 !important
+			margin-right: 0 !important
+		&__desc
+			margin-bottom: 15px
+		&__counts
+			display: none
+		&__content
+			margin-left: 0 !important
+			margin-top: 10px
+			padding-left: 2px
+		&__txt
+			li
+				font-size: 17px
+				padding-left: 28px
+
+	.feedback
+		&__manager
+			margin-left: 25px
+			margin-right: 25px
+		&__phones
+			margin-bottom: 0
+		&__title
+			font-size: 28px
+		&__subtitle
+			margin-bottom: 25px
+			font-size: 22px
+			&:before
+				margin-top: 25px
+				margin-bottom: 20px
+		&__elements
+			margin-bottom: 25px
+		&__input
+			display: block
+			margin-right: auto
+			margin-left: auto
+			margin-bottom: 10px
+		&__input, &__btn
+			width: 400px
+		&__desc
+			margin-bottom: 10px
+
+	.share
+		height: auto
+		&__title
+			span
+				font-size: 32px
+				top: 0
+		&__img
+			display: none
+		&__wrap
+			margin-left: 0
+			padding-top: 0
+			max-width: none
+		&__desc
+			margin-bottom: 20px
+		&__btn
+			margin-top: -10px
+	.decoration
+		&__list
+			margin-left: -15px
+			margin-right: -15px
+		&__item
+			width: 320px
+			margin-left: 15px
+			margin-right: 15px
+			margin-bottom: 30px
+			&:nth-of-type(4)
+				.decoration
+					&__subtitle
+						padding-left: 15px
+						padding-right: 15px
+		&__subtitle
+			padding-left: 50px
+			padding-right: 50px
+		&__btn
+			margin-top: -5px
+	.work
+		padding-bottom: 15px
+		&__item
+			margin-bottom: 10px
+
+	.dops
+		padding-bottom: 15px
+		&__list
+			margin-left: -10px
+			margin-right: -10px
+		&__item
+			margin-left: 10px
+			margin-right: 10px
+			margin-bottom: 20px
+
+	.advantages
+		&__img, &__content
+			float: none
+			margin-left: auto
+			margin-right: auto
+		&__img
+			img
+				margin-left: auto
+				margin-right: auto
+		&__content
+			width: 100%
+			p
+				margin-bottom: 10px
+	.windows
+		padding-bottom: 0
+		&_3
+			.windows
+				&__item
+					&:nth-of-type(3)
+						margin-top: 0
+						margin-left: 0
+						img
+							margin-top: -5px
+		&__item
+			margin-bottom: 30px
+		&__subtitle
+			margin-bottom: 5px
+		&__price
+			position: relative
+			left: 0 !important
+			top: 0 !important
+		&_2
+			.windows
+				&__list
+					margin-bottom: 20px
+					margin-left: -12px
+					margin-right: -12px
+				&__item
+					width: 50%
+					margin-right: 0 !important
+					margin-bottom: 0
+					padding-left: 5px
+					padding-right: 5px
+				&__subtitle
+					margin-top: 10px
+		&_4
+			.windows
+				&__item
+					margin-left: 15px
+					margin-right: 15px !important
+					padding-bottom: 0
+					&:nth-of-type(1)
+						margin-left: 25px
+	.addiction
+		padding-bottom: 0
+		&__item
+			width: 50%
+			margin-bottom: 25px
+		&__img
+			margin-bottom: 12px
+
+	.dops-steps
+		padding-bottom: 0
+		&__item
+			padding-top: 0 !important
+			margin-bottom: 25px
+		&__img
+			margin-bottom: 12px
+
+	.decoration-block
+		&__img
+			right: 0
+	.materials
+		padding-bottom: 0
+		&__item
+			width: 145px
+			margin-left: 15px !important
+			margin-right: 15px !important
+			margin-bottom: 30px
+		&__img
+			margin-left: auto
+			margin-right: auto
+			img
+				margin: 4px 3px
+	.wood
+		&__item
+			margin-right: 15px !important
+			margin-left: 15px !important
+			margin-bottom: 15px
+		&__list
+			margin-bottom: 10px
 @media screen and (max-width: 767px)
-	.container
+	.case
 		width: 100%
+	
+	.title
+		font-size: 24px
+
+	.header
+		&__consult, &__phones
+			display: block
+			margin-left: auto
+			margin-right: auto
+		&__logo
+			margin-bottom: 10px
+		&__consult
+			margin-bottom: 15px
+			text-align: center
+	.logo
+		p
+			// letter-spacing: 5px
+
+	.nav
+		li
+			width: 100%
+			margin-bottom: 15px
+			&:last-of-type
+				margin-bottom: 0
+	
+	.banner
+		&__title
+			span
+				font-size: 24px
+				line-height: normal
+
+	.glazing
+		&__item
+			float: none
+			max-width: 365px
+			width: 100%
+			padding-left: 0
+			padding-right: 0
+			margin-left: auto
+			margin-right: auto
+			&:nth-of-type(1)
+				margin-bottom: 30px
+		&__img, &__content
+			float: none
+		&__img
+			img
+				// margin-left: auto
+				margin-right: auto
+
+	.feedback
+		&__phones
+
+		&__phone
+			display: block
+			font-size: 28px
+		&__manager
+			display: none
+		&__input, &__btn
+			width: 100%
+			max-width: 400px
+
+	.popup
+		&_order, &_policy
+			width: 400px
+		&_order
+			.popup
+				&__title
+					margin-bottom: 15px
+					padding-right: 15px
+					padding-left: 15px
+					text-align: center
+					p
+						display: none
+				&__wrap
+					padding: 20px
+					background: none
+				&__elements
+					max-width: 100%
+				&__policy
+					padding-left: 7px
+					padding-right: 7px
+	.windows
+		&_3
+			.windows
+				&__item
+					&:nth-of-type(1)
+						img
+							left: 5px
+					&:nth-of-type(3)
+						img
+							left: -15px
+		&__item, &__img
+			display: block
+			margin-left: auto !important
+			margin-right: auto !important
+			width: 100% !important
+		&__img
+			img
+				position: relative
+				max-width: 100%
+				margin-left: auto
+				margin-right: auto
+		&__item
+			margin-bottom: 20px !important
+
+	.footer
+		&__logo, &__phones
+			float: none
+		&__phones
+			width: 225px
+			margin-left: auto
+			margin-right: auto
+			margin-top: 10px
+@media screen and (max-width: 560px)
+	.fixed-btn-order
+		display: none
+	
+	.share
+		&__title
+			display: none
+			.icon
+				transform: scale(.6)
+				margin-left: -15px
+			span
+				margin-left: 0
+		&__desc
+			margin-bottom: 15px
+			font-size: 24px
+		&__txt
+			line-height: normal
+	.decoration
+		&__item
+			display: block
+			margin-left: auto
+			margin-right: auto
+			width: 280px
+			margin-bottom: 15px
+		&__subtitle
+			padding-left: 0px !important
+			padding-right: 0px !important
+		&__btn
+			max-width: 280px
+			margin-top: 20px
+	.addiction, .dops-steps
+		&__item
+			width: 100%
+	.dops-steps
+		&__item
+			margin-left: 0
+			margin-right: 0
+	.popup
+		width: 95%
+		&_gift
+			.popup
+				&__wrap
+					padding-top: 40px
+					padding-bottom: 20px
+		&_policy
+			padding: 30px 15px 25px
+			.popup
+				&__wrap
+
+@media screen and (max-width: 490px)
+	.header
+		padding-bottom: 50px
+		&__consult
+			margin-top: 0
+			padding-top: 0
+			margin-bottom: 0
+			p
+				display: none
+			.btn
+				position: absolute
+				bottom: -40px
+				left: 50%
+				margin-left: -112.5px
+				width: 225px
+	.logo
+
+		p
+			display: none
+
+	.banner
+		padding: 30px 15px
+		&__wrap
+			width: 100%
+			padding: 15px
+			&:before, &:after
+				// display: none
+		&__title
+			margin-bottom: 10px
+			.icon
+				margin-right: 10px
+			span
+				font-size: 20px
+				line-height: normal
+				width: calc(100% - 65px)
+		&__desc
+			margin-bottom: 15px
+		&__input
+			margin-bottom: 10px
+		&__btn
+			margin-top: 0
+

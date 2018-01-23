@@ -1,3 +1,20 @@
 /* Including fonts */
 @font-face {
-  src: url("../../fonts/"); }
+  src: url("../../fonts/Lato/Lato-Light.ttf");
+  font-family: 'Lato';
+  font-weight: 300; }
+
+@font-face {
+  src: url("../../fonts/Lato/Lato-Regular.ttf");
+  font-family: 'Lato';
+  font-weight: 400; }
+
+@font-face {
+  src: url("../../fonts/Lato/Lato-Bold.ttf");
+  font-family: 'Lato';
+  font-weight: 700; }
+
+@font-face {
+  src: url("../../fonts/MyriadPro/MyriadPro-Regular.otf");
+  font-family: 'Myriad Pro';
+  font-weight: 400; }
