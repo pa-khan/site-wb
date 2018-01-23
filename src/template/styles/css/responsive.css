@@ -219,11 +219,19 @@
   .header__consult {
     margin-bottom: 15px;
     text-align: center; }
-  .nav li {
-    width: 100%;
-    margin-bottom: 15px; }
-    .nav li:last-of-type {
-      margin-bottom: 0; }
+  .nav {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .nav a {
+      padding-left: 0;
+      padding-right: 0; }
+      .nav a:before, .nav a:after {
+        display: none; }
+    .nav li {
+      width: 100%;
+      margin-bottom: 10px; }
+      .nav li:last-of-type {
+        margin-bottom: 0; }
   .banner__title span {
     font-size: 24px;
     line-height: normal; }
@@ -282,6 +290,11 @@
     margin-right: auto; }
   .windows__item {
     margin-bottom: 20px !important; }
+  .work__item {
+    padding-top: 25px;
+    padding-bottom: 30px; }
+  .work__subtitle:after {
+    display: none; }
   .footer__logo, .footer__phones {
     float: none; }
   .footer__phones {

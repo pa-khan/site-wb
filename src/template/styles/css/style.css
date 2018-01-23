@@ -123,7 +123,10 @@ body {
   font-size: 18px;
   font-family: "Lato", sans-serif;
   color: #000;
-  background: white; }
+  background: white;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto; }
 
 header, nav, main, section, article, aside, footer, li, .block {
   display: block; }
@@ -1013,11 +1016,23 @@ img {
       max-height: 310px;
       overflow-y: auto;
       padding-right: 15px; }
+  .popup_thanks {
+    width: 280px;
+    text-align: center;
+    padding: 50px 15px; }
   .popup__close {
     top: 14px;
     right: 15px;
     position: absolute;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .popup__close .icon {
+      display: block; }
+    .popup__close:hover {
+      -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+              transform: rotate(90deg); }
   .popup__title {
     font-size: 25px; }
     .popup__title p {

@@ -33,4 +33,7 @@ $(document).ready(function($) {
 			$('.nav_top').removeClass('nav_fix');
 		}
 	})
+	
+	// $.fancybox.open({src  : '#popup-thanks',type : 'inline'});
+	
 });

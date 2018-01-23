@@ -23,6 +23,9 @@ body
 	font-family: $font-family-1
 	color: $color-1
 	background: white
+	max-width: 1920px
+	margin-left: auto
+	margin-right: auto
 
 header, nav, main, section, article, aside, footer, li, .block
 	display: block
@@ -957,11 +960,20 @@ img
 				max-height: 310px
 				overflow-y: auto
 				padding-right: 15px
+	&_thanks
+		width: 280px
+		text-align: center
+		padding: 50px 15px
 	&__close
 		top: 14px
 		right: 15px
 		position: absolute
 		cursor: pointer
+		transition: .3s
+		.icon
+			display: block
+		&:hover
+			transform: rotate(90deg)
 	&__title
 		font-size: 25px
 		p

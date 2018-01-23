@@ -262,9 +262,16 @@
 			// letter-spacing: 5px
 
 	.nav
+		padding-top: 15px
+		padding-bottom: 15px
+		a
+			padding-left: 0
+			padding-right: 0
+			&:before, &:after
+				display: none
 		li
 			width: 100%
-			margin-bottom: 15px
+			margin-bottom: 10px
 			&:last-of-type
 				margin-bottom: 0
 	
@@ -347,6 +354,14 @@
 				margin-right: auto
 		&__item
 			margin-bottom: 20px !important
+	
+	.work
+		&__item
+			padding-top: 25px
+			padding-bottom: 30px
+		&__subtitle
+			&:after
+				display: none
 
 	.footer
 		&__logo, &__phones
@@ -356,6 +371,7 @@
 			margin-left: auto
 			margin-right: auto
 			margin-top: 10px
+		
 @media screen and (max-width: 560px)
 	.fixed-btn-order
 		display: none
