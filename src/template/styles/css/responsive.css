@@ -1,3 +1,7 @@
+@media screen and (max-width: 1530px) {
+  .feedback {
+    background-image: none; } }
+
 @media screen and (max-width: 1095px) {
   img {
     max-width: 100%; }
@@ -21,7 +25,8 @@
       margin-left: auto;
       margin-right: auto; }
     .logo p {
-      text-align: center; }
+      text-align: center;
+      padding-left: 13px; }
   .nav {
     padding-top: 10px;
     padding-bottom: 10px; }
@@ -343,7 +348,9 @@
       padding-top: 40px;
       padding-bottom: 20px; }
     .popup_policy {
-      padding: 30px 15px 25px; } }
+      padding: 30px 15px 25px; }
+  .logo p {
+    display: none; } }
 
 @media screen and (max-width: 490px) {
   .header {
@@ -360,8 +367,6 @@
         left: 50%;
         margin-left: -112.5px;
         width: 225px; }
-  .logo p {
-    display: none; }
   .banner {
     padding: 30px 15px; }
     .banner__wrap {

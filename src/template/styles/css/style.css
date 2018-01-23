@@ -518,6 +518,22 @@ img {
   text-align: center;
   padding-top: 97px;
   padding-bottom: 15px; }
+  .feedback_consult {
+    background-image: url("../../img/bg/manager-right.png");
+    background-position: right 80px;
+    background-repeat: no-repeat; }
+  .feedback_detail {
+    background-image: url("../../img/bg/manager-left.png");
+    background-position: left 45px;
+    background-repeat: no-repeat; }
+  .feedback_roulette {
+    background-image: url("../../img/bg/worker.png"), url("../../img/bg/manager-right.png");
+    background-position: left 95px, right 95px;
+    background-repeat: no-repeat; }
+  .feedback_questions {
+    background-image: url("../../img/bg/manager-right.png");
+    background-position: right 95px;
+    background-repeat: no-repeat; }
   .feedback__title {
     font-size: 30px;
     font-weight: 300;
